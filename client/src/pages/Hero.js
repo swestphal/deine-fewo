@@ -10,11 +10,11 @@ const Hero = () => {
                 <article className='hero-info'>
                     <h1>
                         Finde Deine Fewo <br />
-            die zu Dir passt!
-          </h1>
+                        die zu Dir passt!
+                    </h1>
                     <p>
                         Jetzt registrieren!
-          </p>
+                        </p>
                     <button className='btn'>Jetzt starten</button>
                 </article>
                 <article className='hero-images'>

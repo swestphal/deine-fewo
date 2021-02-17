@@ -199,7 +199,7 @@ Stripe Styles
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  background:mintcream;
+  background:blue;
 }
 
 .hero-center {
