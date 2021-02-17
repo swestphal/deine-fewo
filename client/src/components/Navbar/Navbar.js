@@ -26,6 +26,7 @@ const Navbar = () => {
                     <button className="btn toggle-btn" onClick={openSidebar}><FaBars /></button>
                 </div>
                 <ul className="nav-links">
+                    <li><button className='link-btn__single '>Startseite</button></li>
                     <li>
                         <button className='link-btn' onMouseOver={displaySubmenu}>
                             Inspirationen

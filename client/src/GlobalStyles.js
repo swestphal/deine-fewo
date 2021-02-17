@@ -248,7 +248,8 @@ Stripe Styles
   .nav-links li {
     height: 100%;
   }
-  .link-btn {
+  .link-btn,
+  .link-btn__single {
     height: 100%;
     background: transparent;
     border-color: transparent;
