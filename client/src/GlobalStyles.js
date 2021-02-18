@@ -438,4 +438,20 @@ Stripe Styles
   color: var(--clr-grey-5);
   margin-right: 1rem;
 }
+
+
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem; /* We need to change this value */
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
 `

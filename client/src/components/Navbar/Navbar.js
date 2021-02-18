@@ -19,7 +19,7 @@ const Navbar = () => {
         }
     }
     return (
-        <div className="nav" onMouseOver={handleSubmenu}>
+        <div className="nav sticky-inner" onMouseOver={handleSubmenu}>
             <div className="nav-center">
                 <div className="nav-header">
                     <p> navlogo</p>
