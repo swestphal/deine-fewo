@@ -25,12 +25,13 @@ function App() {
       window.removeEventListener('scroll', () => handleScroll);
     };
   }, []);
-
+  //TODO fix fixed header issue on submenu
   return (
     <>
       <GlobalStyles />
       <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
         <Navbar />
+
       </div>
       <Sidebar />
       <Hero />
